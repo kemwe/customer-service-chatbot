@@ -1,0 +1,85 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_reason
+- utter_no_1
+- utter_no_2
+- utter_no_3
+- utter_no_4
+- utter_no_5
+- utter_no_6
+- utter_grateful
+- utter_afterservice
+- utter_goodbye
+config:
+  store_entities_as_slots: true
+entities:
+- group
+- numbers
+forms: []
+intents:
+- Reason:
+    use_entities: true
+- no_3:
+    use_entities: true
+- no_1:
+    use_entities: true
+- Grateful:
+    use_entities: true
+- no_4:
+    use_entities: true
+- after_service:
+    use_entities: true
+- no_5:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- no_2:
+    use_entities: true
+- no_6:
+    use_entities: true
+- Greetings:
+    use_entities: true
+slots:
+  group:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  number:
+    auto_fill: true
+    initial_value: null
+    max_value: 7
+    min_value: 0
+    type: rasa_core.slots.FloatSlot
+templates:
+  utter_afterservice:
+  - text: Thank you for visiting Nakala. Please check out our website for more services
+  utter_goodbye:
+  - text: Bye
+  utter_grateful:
+  - text: You are welcome. Any other question?
+  utter_greet:
+  - text: Hey.My name is Son of the earth. How may i be of assistance to you?
+  utter_no_1:
+  - text: ' Thank you for choosing Data science. Please click [Data science](https://nakala-analytics.co.ke)
+      for more information on data science'
+  utter_no_2:
+  - text: ' Thank you for choosing Data audit. Please click [Data audit](https://nakala-analytics.co.ke)
+      for more information on data audit'
+  utter_no_3:
+  - text: ' Thank you for choosing Data Labelling. Please click [Data Labelling](https://nakala-analytics.co.ke)
+      for more information on  data labelling'
+  utter_no_4:
+  - text: ' Thank you for choosing Data analytics. Please click [Data analytics](https://nakala-analytics.co.ke)
+      for more information on data analytics'
+  utter_no_5:
+  - text: ' Thank you for choosing Data Visualization. Please click [Data Visualization](https://nakala-analytics.co.ke)
+      for more information on data Visualization'
+  utter_no_6:
+  - text: ' Thank you for choosing Internship. Please click [Internship](https://nakala-analytics.co.ke)
+      for more information on available internship opportunities'
+  utter_reason:
+  - text: 'Okay. We offer the following services: 1. Data science 2. Data audit 3.
+      Data Labelling 4. Data analytics 5. Data  visualization 6. Internship. Please
+      select the services you want.'

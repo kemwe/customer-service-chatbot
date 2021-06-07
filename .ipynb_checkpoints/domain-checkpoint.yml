@@ -1,0 +1,71 @@
+intents:
+- Reason
+- no_3
+- no_1
+- Grateful
+- no_4
+- after_service
+- no_5
+- goodbye
+- no_2
+- no_6
+- Greetings
+
+slots:
+  group:
+    type: text
+  number:
+    type: float
+    min_value: 0
+    max_value: 7
+
+entities:
+- group
+- numbers
+
+actions:
+- utter_greet
+- utter_reason
+- utter_no_1
+- utter_no_2
+- utter_no_3
+- utter_no_4
+- utter_no_5
+- utter_no_6
+- utter_grateful
+- utter_afterservice
+- utter_goodbye
+
+templates:
+  utter_greet:
+  - text: "Hey.My name is Son of the earth. How may i be of assistance to you?"
+  
+  utter_reason:
+  - text: "Okay. We offer the following services: 1. Data science 2. Data audit 3. Data Labelling 4. Data analytics 5. Data  visualization 6. Internship. Please select the services you want."
+  
+  utter_no_1:
+  - text: " Thank you for choosing Data science. Please click [Data science](https://nakala-analytics.co.ke) for more information on data science"
+  
+  utter_no_2:
+  - text: " Thank you for choosing Data audit. Please click [Data audit](https://nakala-analytics.co.ke) for more information on data audit"
+  
+  utter_no_3:
+  - text: " Thank you for choosing Data Labelling. Please click [Data Labelling](https://nakala-analytics.co.ke) for more information on  data labelling"
+  
+  utter_no_4:
+  - text: " Thank you for choosing Data analytics. Please click [Data analytics](https://nakala-analytics.co.ke) for more information on data analytics"
+  
+  utter_no_5:
+  - text: " Thank you for choosing Data Visualization. Please click [Data Visualization](https://nakala-analytics.co.ke) for more information on data Visualization"
+  
+  utter_no_6:
+  - text: " Thank you for choosing Internship. Please click [Internship](https://nakala-analytics.co.ke) for more information on available internship opportunities"
+  
+  utter_grateful:
+  - text: "You are welcome. Any other question?"
+  
+  utter_afterservice:
+  - text: "Thank you for visiting Nakala. Please check out our website for more services"
+  
+  utter_goodbye:
+  - text: "Bye"

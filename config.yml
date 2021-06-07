@@ -1,0 +1,21 @@
+language: "en_core_web_md"
+
+pipeline: 
+- name: "SpacyNLP"
+  case_sensitive: False
+- name: "SpacyTokenizer"
+- name: "CRFEntityExtractor"
+- name: "SpacyFeaturizer"
+- name: "intent_classifier_sklearn"
+- name: "EntitySynonymMapper"
+
+policies:
+  - name: KerasPolicy
+    epochs: 200
+    max_history: 5
+  - name: FallbackPolicy
+    fallback_action_name: 'action_default_fallback'
+  - name: MemoizationPolicy
+    max_history: 5
+  - name: FormPolicy
+  - name: MappingPolicy

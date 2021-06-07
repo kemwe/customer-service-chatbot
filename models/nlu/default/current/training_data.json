@@ -1,0 +1,197 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "Greetings",
+        "text": "Morning"
+      },
+      {
+        "intent": "Greetings",
+        "text": "morning"
+      },
+      {
+        "intent": "Greetings",
+        "text": "Hi"
+      },
+      {
+        "intent": "Greetings",
+        "text": "Hey"
+      },
+      {
+        "intent": "Greetings",
+        "text": "hey"
+      },
+      {
+        "intent": "Greetings",
+        "text": "Good morning"
+      },
+      {
+        "intent": "Greetings",
+        "text": "good morning"
+      },
+      {
+        "intent": "Greetings",
+        "text": "good evening"
+      },
+      {
+        "intent": "Greetings",
+        "text": "Good evening"
+      },
+      {
+        "intent": "Greetings",
+        "text": "Good evening"
+      },
+      {
+        "intent": "Greetings",
+        "text": "good evening"
+      },
+      {
+        "intent": "Greetings",
+        "text": "evening"
+      },
+      {
+        "intent": "Greetings",
+        "text": "morn"
+      },
+      {
+        "intent": "Greetings",
+        "text": "hey there"
+      },
+      {
+        "intent": "Greetings",
+        "text": "sup"
+      },
+      {
+        "intent": "Reason",
+        "text": "i would like to inquire on the services you offer"
+      },
+      {
+        "intent": "Reason",
+        "text": "I would like to enquire on the services you offer"
+      },
+      {
+        "intent": "Reason",
+        "text": "I am trying to find out about somthing"
+      },
+      {
+        "intent": "Reason",
+        "text": "i want to know about the services you offer"
+      },
+      {
+        "intent": "Reason",
+        "text": "what services do you offer"
+      },
+      {
+        "intent": "Reason",
+        "text": "i want to know the services you offer"
+      },
+      {
+        "intent": "Reason",
+        "text": "what services do you offer?"
+      },
+      {
+        "intent": "no_1",
+        "text": "1"
+      },
+      {
+        "intent": "no_2",
+        "text": "2"
+      },
+      {
+        "intent": "no_3",
+        "text": "3"
+      },
+      {
+        "intent": "no_4",
+        "text": "4"
+      },
+      {
+        "intent": "no_5",
+        "text": "5"
+      },
+      {
+        "intent": "no_6",
+        "text": "6"
+      },
+      {
+        "intent": "Grateful",
+        "text": "Thank you"
+      },
+      {
+        "intent": "Grateful",
+        "text": "Am done"
+      },
+      {
+        "intent": "Grateful",
+        "text": "done"
+      },
+      {
+        "intent": "Grateful",
+        "text": "Thanks"
+      },
+      {
+        "intent": "Grateful",
+        "text": "tnks"
+      },
+      {
+        "intent": "after_service",
+        "text": "Nope"
+      },
+      {
+        "intent": "after_service",
+        "text": "No"
+      },
+      {
+        "intent": "after_service",
+        "text": "Nuh"
+      },
+      {
+        "intent": "after_service",
+        "text": "nah"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "cee you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good night"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a nice day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
